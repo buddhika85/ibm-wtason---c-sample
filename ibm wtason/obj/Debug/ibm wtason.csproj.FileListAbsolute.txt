@@ -1,0 +1,33 @@
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\ibm wtason.exe.config
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\ibm wtason.exe
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\ibm wtason.pdb
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\IBM.WatsonDeveloperCloud.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\IBM.WatsonDeveloperCloud.SpeechToText.v1.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\Microsoft.Win32.Primitives.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\Newtonsoft.Json.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.AppContext.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Console.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Diagnostics.DiagnosticSource.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Globalization.Calendars.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.IO.Compression.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.IO.Compression.ZipFile.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.IO.FileSystem.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.IO.FileSystem.Primitives.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.Http.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.Http.Formatting.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.Sockets.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.WebSockets.Client.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.WebSockets.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.Algorithms.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.Encoding.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.Primitives.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\Newtonsoft.Json.xml
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Diagnostics.DiagnosticSource.xml
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.exe
+D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.pdb
+D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.csprojResolveAssemblyReference.cache
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\WaveReader.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\WaveReader.pdb
