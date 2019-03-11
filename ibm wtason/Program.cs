@@ -1,18 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Net;
-using System.Net.WebSockets;
-using System.Runtime.Serialization;
-using System.Runtime.Serialization.Json;
-using System.Text;
-using System.Threading;
-using System.Threading.Tasks;
-using IBM.WatsonDeveloperCloud.SpeechToText.v1;
+﻿using IBM.WatsonDeveloperCloud.SpeechToText.v1;
 using IBM.WatsonDeveloperCloud.SpeechToText.v1.Util;
 using IBM.WatsonDeveloperCloud.Util;
-using WaveReaderDLL;
+using System;
+using System.Collections.Generic;
+using System.IO;
 
 namespace ibm_wtason
 {
@@ -40,8 +31,12 @@ namespace ibm_wtason
 
 
                 //var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\audio-file.flac";
-                var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\sample.flac";
-                ////var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\sample.wav";
+                //var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\sample.flac";
+                //var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\sample.wav";
+                //var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\oneTwoThree.wav";
+                //var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\speaker1Enroll.wav";
+                var audioFile = @"D:\Projects_Mine\ibm wtason\ibm wtason\audio\speakerVerification1.wav";
+
                 ////  open and read an audio file
                 //using (FileStream fs = File.OpenRead(audioFile))
                 //{
@@ -61,7 +56,7 @@ namespace ibm_wtason
                 var fileStream = File.OpenRead(audioFile);
                 var stream = StreamToByteArray(fileStream);
                 var results =
-                    _speechToText.RecognizeSessionless(audio: stream, contentType: fileStream.GetMediaTypeFromFile(), keywords:new List<string> {"A", "B", "C", "D" }, keywordsThreshold: 0.5f);
+                    _speechToText.RecognizeSessionless(audio: stream, contentType: fileStream.GetMediaTypeFromFile(), keywords:new List<string> {"A", "B", "C", "D","E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"}, keywordsThreshold: 0.5f, model: "en-US_NarrowbandModel");
                 if (results?.Results[0]?.Alternatives[0]?.Confidence != null)
                 {
                     Console.WriteLine($"Confidence : {results.Results[0].Alternatives[0].Confidence} \n Transcript : {results.Results[0].Alternatives[0].Transcript}");
