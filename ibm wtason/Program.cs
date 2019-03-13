@@ -3,6 +3,7 @@ using IBM.WatsonDeveloperCloud.SpeechToText.v1.Util;
 using IBM.WatsonDeveloperCloud.Util;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 
 namespace ibm_wtason
@@ -21,9 +22,8 @@ namespace ibm_wtason
 
                 TokenOptions iamAssistantTokenOptions = new TokenOptions
                 {
-                    IamApiKey = "5owIqX7QnuEoh8lfKW6w-dE_xIWRSbhpJGwUSoI2ww77",
-                    ServiceUrl = "https://gateway-lon.watsonplatform.net/speech-to-text/api",
-
+                    IamApiKey = ConfigurationManager.AppSettings["watsonAPIKey"],
+                    ServiceUrl = ConfigurationManager.AppSettings["watsonServiceUrl"]
                 };
 
                 SpeechToTextService _speechToText = new SpeechToTextService(iamAssistantTokenOptions);
@@ -41,13 +41,13 @@ namespace ibm_wtason
 
                 
                 var fileStream = File.OpenRead(audioFile);
-                var stream = StreamToByteArray(fileStream);
+                //var stream = StreamToByteArray(fileStream);
                 //var results =
                 //    _speechToText.RecognizeSessionless(audio: stream, contentType: fileStream.GetMediaTypeFromFile(), keywords:new List<string> {"A", "B", "C", "D","E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0"}, keywordsThreshold: 0.5f, model: "en-US_NarrowbandModel");
 
                 var streamFromUrl = GetStreamFromUrl("https://api.twilio.com/2010-04-01/Accounts/ACdfe342ddbecf65b044a7e098180a75e3/Recordings/REe46d1db388878b920507837a656d4e02.wav");
                 var results =
-                    _speechToText.Recognize(audio: streamFromUrl, contentType: fileStream.GetMediaTypeFromFile(), keywords: new string [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" }, keywordsThreshold: 0.5f, model: "en-US_NarrowbandModel");
+                    _speechToText.Recognize(audio: streamFromUrl, contentType: "audio/wav", keywords: new string [] { "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z", "1", "2", "3", "4", "5", "6", "7", "8", "9", "0" }, keywordsThreshold: 0.5f, model: "en-US_NarrowbandModel");
 
 
                 if (results?.Results[0]?.Alternatives[0]?.Confidence != null)

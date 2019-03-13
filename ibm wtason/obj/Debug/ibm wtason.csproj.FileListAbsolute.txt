@@ -23,11 +23,11 @@ D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.Al
 D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.Encoding.dll
 D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.Primitives.dll
 D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Security.Cryptography.X509Certificates.dll
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\WaveReader.dll
 D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\Newtonsoft.Json.xml
 D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Diagnostics.DiagnosticSource.xml
 D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\System.Net.Http.Formatting.xml
+D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\WaveReader.pdb
+D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.csprojResolveAssemblyReference.cache
 D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.exe
 D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.pdb
-D:\Projects_Mine\ibm wtason\ibm wtason\obj\Debug\ibm wtason.csprojResolveAssemblyReference.cache
-D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\WaveReader.dll
-D:\Projects_Mine\ibm wtason\ibm wtason\bin\Debug\WaveReader.pdb
